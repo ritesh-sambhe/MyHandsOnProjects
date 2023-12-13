@@ -1,6 +1,4 @@
-# MyHandsOnProjects
-#This repository contains the AWS and DevOps project works. 
-#This is to address Scalable Serverless Web Backend for Cleaning Supplies E-commerce Platform
+# This is to address Scalable Serverless Web Backend for Cleaning Supplies E-commerce Platform
 
 Led the design and implementation of a serverless web backend on AWS to meet the dynamic needs of a client in the cleaning supplies industry.
 Successfully addressed the client's requirement for scalable infrastructure, utilizing AWS Lambda for serverless compute and AWS API Gateway for efficient API management.
