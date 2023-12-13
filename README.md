@@ -1,6 +1,13 @@
 # MyHandsOnProjects
 #This repository contains the AWS and DevOps project works. 
-#
+#This is to address Scalable Serverless Web Backend for Cleaning Supplies E-commerce Platform
+
+Led the design and implementation of a serverless web backend on AWS to meet the dynamic needs of a client in the cleaning supplies industry.
+Successfully addressed the client's requirement for scalable infrastructure, utilizing AWS Lambda for serverless compute and AWS API Gateway for efficient API management.
+Implemented event-driven architecture to ensure decoupling of application components, enhancing flexibility and maintainability.
+Achieved optimal scalability and responsiveness, handling demand spikes seamlessly.
+Provided comprehensive documentation and training to ensure the client's team could effectively manage and extend the solution.
+
 ![EDA-Result-01](https://github.com/ritesh-sambhe/MyHandsOnProjects/assets/144586067/f91cb7f6-4c68-4662-8ed9-be29be281a3e)
 ![EDA-Result-02](https://github.com/ritesh-sambhe/MyHandsOnProjects/assets/144586067/3036daf8-7910-4254-b5e3-d24036871977)
 ![EDA-Result-03](https://github.com/ritesh-sambhe/MyHandsOnProjects/assets/144586067/bb86c171-6135-451f-ade3-af4d36a3a298)
