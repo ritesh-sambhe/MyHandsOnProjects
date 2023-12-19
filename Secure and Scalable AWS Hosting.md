@@ -1,4 +1,5 @@
 # Secure and Scalable AWS Hosting
+
 Customer Requirement:
 A firm wants to launch their new application. To reduce cost it has been decided
 that the entire application will be hosted on AWS. It’s a photo and video storage
@@ -33,7 +34,7 @@ regional failures as well.
 12. All the SysOps out there configure and use AWS CLI to provision all
 services.
 
-Steps:
+# Steps:
 ![image](https://github.com/ritesh-sambhe/MyHandsOnProjects/assets/144586067/8e0a3a2a-7356-4829-92fc-89c9fd0c4c33)
 Setup VPC for Load Balancer, Application EC2 instance and RDS Database - one public and two private subnets.
 • Create Load balancer and Auto Scaling Group.
