@@ -9,6 +9,7 @@ Achieved optimal scalability and responsiveness, handling demand spikes seamless
 Provided comprehensive documentation and training to ensure the client's team could effectively manage and extend the solution.
 # Architecture To Be Implemented
 ![EDA-Question](https://github.com/ritesh-sambhe/MyHandsOnProjects/assets/144586067/f7a8cc3a-042e-428e-8b1b-14e21b227bb5)
+
 ![EDA-Question2](https://github.com/ritesh-sambhe/MyHandsOnProjects/assets/144586067/71612ff6-e382-451a-98c9-f24b2f85fe35)
 
 ![EDA-Result-01](https://github.com/ritesh-sambhe/MyHandsOnProjects/assets/144586067/f91cb7f6-4c68-4662-8ed9-be29be281a3e)
