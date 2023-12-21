@@ -7,6 +7,9 @@ Successfully addressed the client's requirement for scalable infrastructure, uti
 Implemented event-driven architecture to ensure decoupling of application components, enhancing flexibility and maintainability.
 Achieved optimal scalability and responsiveness, handling demand spikes seamlessly.
 Provided comprehensive documentation and training to ensure the client's team could effectively manage and extend the solution.
+# Architecture To Be Implemented
+![EDA-Question](https://github.com/ritesh-sambhe/MyHandsOnProjects/assets/144586067/f7a8cc3a-042e-428e-8b1b-14e21b227bb5)
+![EDA-Question2](https://github.com/ritesh-sambhe/MyHandsOnProjects/assets/144586067/71612ff6-e382-451a-98c9-f24b2f85fe35)
 
 ![EDA-Result-01](https://github.com/ritesh-sambhe/MyHandsOnProjects/assets/144586067/f91cb7f6-4c68-4662-8ed9-be29be281a3e)
 ![EDA-Result-02](https://github.com/ritesh-sambhe/MyHandsOnProjects/assets/144586067/3036daf8-7910-4254-b5e3-d24036871977)
