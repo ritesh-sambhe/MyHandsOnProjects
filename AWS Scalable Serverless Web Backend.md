@@ -13,6 +13,10 @@ Provided comprehensive documentation and training to ensure the client's team co
 ![EDA-Question2](https://github.com/ritesh-sambhe/MyHandsOnProjects/assets/144586067/71612ff6-e382-451a-98c9-f24b2f85fe35)
 
 ![EDA-Result-01](https://github.com/ritesh-sambhe/MyHandsOnProjects/assets/144586067/f91cb7f6-4c68-4662-8ed9-be29be281a3e)
+
+# Used IAM Policies
+![image](https://github.com/ritesh-sambhe/MyHandsOnProjects/assets/144586067/ee872127-d1b9-484d-b090-16b5de86bd2c)
+
 ![EDA-Result-02](https://github.com/ritesh-sambhe/MyHandsOnProjects/assets/144586067/3036daf8-7910-4254-b5e3-d24036871977)
 ![EDA-Result-03](https://github.com/ritesh-sambhe/MyHandsOnProjects/assets/144586067/bb86c171-6135-451f-ade3-af4d36a3a298)
 ![EDA-Result-04](https://github.com/ritesh-sambhe/MyHandsOnProjects/assets/144586067/7111fefa-00c5-40be-a0d8-bb19108c6514)
