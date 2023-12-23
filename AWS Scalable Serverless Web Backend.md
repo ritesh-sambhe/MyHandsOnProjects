@@ -15,7 +15,53 @@ Provided comprehensive documentation and training to ensure the client's team co
 ![EDA-Result-01](https://github.com/ritesh-sambhe/MyHandsOnProjects/assets/144586067/f91cb7f6-4c68-4662-8ed9-be29be281a3e)
 
 # Used IAM Policies
-![image](https://github.com/ritesh-sambhe/MyHandsOnProjects/assets/144586067/ee872127-d1b9-484d-b090-16b5de86bd2c)
+#1st Policy- Lambda-Write-DynamoDB
+![image](https://github.com/ritesh-sambhe/MyHandsOnProjects/assets/144586067/6801cbaa-0a67-42ee-8790-61d8f8b063a8)
+
+#2nd Policy- Lambda-SNS-Publish
+![image](https://github.com/ritesh-sambhe/MyHandsOnProjects/assets/144586067/ae3f58a4-2fe4-4e66-8afe-900ddde7b93e)
+
+#3rd Policy- Lambda-DynamoDBStreams-Read
+![image](https://github.com/ritesh-sambhe/MyHandsOnProjects/assets/144586067/bb77d534-deb2-4b34-a3ac-6961454a5f9d)
+
+#4th Policy- Lambda-Read-SQS
+![image](https://github.com/ritesh-sambhe/MyHandsOnProjects/assets/144586067/872f5cb5-9912-4e9a-9b1c-fc7bed4e0a42)
+
+# Creating Roles, in Total 3-Roles We Are Creating Roles as Mentioned Below.
+
+Creating IAM roles and attaching policies to the roles
+Because AWS follows the principle of least privilege, we recommend that you provide role-based access to only the AWS resources that are required to perform a task. In this step, you create IAM roles and attach policies to the roles.
+
+In the navigation pane of the IAM dashboard, choose Roles.
+
+Choose Create role and in the Select trusted entity page, configure the following settings:
+Trusted entity type: AWS service
+Common use cases: Lambda
+Choose Next.
+
+On the Add permissions page, select Lambda-Write-DynamoDB and Lambda-Read-SQS.
+
+Choose Next
+For Role name, enter Lambda-SQS-DynamoDB(#1st Role)
+
+Choose Create role.
+
+Follow the previous steps to create two more IAM roles:
+
+An IAM role for AWS Lambda: This role grants permissions to obtain records from the DynamoDB streams and send the records to Amazon SNS. Use the following information to create the role.
+
+IAM role name: Lambda-DynamoDBStreams-SNS(2nd Role)
+
+Trusted entity type: AWS service
+Common use cases: Lambda
+Attach policies: Lambda-SNS-Publish and Lambda-DynamoDBStreams-Read
+An IAM role for Amazon API Gateway: This role grants permissions to send data to the SQS queue and push logs to Amazon CloudWatch for troubleshooting. Use the following information to create the role.
+
+IAM role name: APIGateway-SQS(#3rd Role)
+
+Trusted entity type: AWS service
+Common use cases: API Gateway
+Attach policies: AmazonAPIGatewayPushToCloudWatchLogs.
 
 ![EDA-Result-02](https://github.com/ritesh-sambhe/MyHandsOnProjects/assets/144586067/3036daf8-7910-4254-b5e3-d24036871977)
 ![EDA-Result-03](https://github.com/ritesh-sambhe/MyHandsOnProjects/assets/144586067/bb86c171-6135-451f-ade3-af4d36a3a298)
