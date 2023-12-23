@@ -27,7 +27,7 @@ Provided comprehensive documentation and training to ensure the client's team co
 #4th Policy- Lambda-Read-SQS
 ![image](https://github.com/ritesh-sambhe/MyHandsOnProjects/assets/144586067/872f5cb5-9912-4e9a-9b1c-fc7bed4e0a42)
 
-# Creating Roles, in Total 3-Roles We Are Creating Roles as Mentioned Below.
+# Creating Roles, in Total 3-Roles We Are Creating, as Mentioned Below.
 
 Creating IAM roles and attaching policies to the roles
 Because AWS follows the principle of least privilege, we recommend that you provide role-based access to only the AWS resources that are required to perform a task. In this step, you create IAM roles and attach policies to the roles.
@@ -39,7 +39,7 @@ Trusted entity type: AWS service
 Common use cases: Lambda
 Choose Next.
 
-On the Add permissions page, select Lambda-Write-DynamoDB and Lambda-Read-SQS.
+On the Add permissions page, select "Lambda-Write-DynamoDB" and "Lambda-Read-SQS".
 
 Choose Next
 For Role name, enter Lambda-SQS-DynamoDB(#1st Role)
@@ -54,14 +54,15 @@ IAM role name: Lambda-DynamoDBStreams-SNS(2nd Role)
 
 Trusted entity type: AWS service
 Common use cases: Lambda
-Attach policies: Lambda-SNS-Publish and Lambda-DynamoDBStreams-Read
+Attach policies: "Lambda-SNS-Publish" and "Lambda-DynamoDBStreams-Read"
+
 An IAM role for Amazon API Gateway: This role grants permissions to send data to the SQS queue and push logs to Amazon CloudWatch for troubleshooting. Use the following information to create the role.
 
 IAM role name: APIGateway-SQS(#3rd Role)
 
 Trusted entity type: AWS service
 Common use cases: API Gateway
-Attach policies: AmazonAPIGatewayPushToCloudWatchLogs.
+Attach policies: "AmazonAPIGatewayPushToCloudWatchLogs".
 
 ![EDA-Result-02](https://github.com/ritesh-sambhe/MyHandsOnProjects/assets/144586067/3036daf8-7910-4254-b5e3-d24036871977)
 ![EDA-Result-03](https://github.com/ritesh-sambhe/MyHandsOnProjects/assets/144586067/bb86c171-6135-451f-ade3-af4d36a3a298)
