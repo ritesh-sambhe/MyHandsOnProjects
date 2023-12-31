@@ -10,9 +10,9 @@
 
 ![image](https://github.com/ritesh-sambhe/MyHandsOnProjects/assets/144586067/28f11ff1-1e3c-45cf-a60b-a4ba41453d0f)
 
-# Similarly create VPC,IGW, ROUTE Table, Subnet for second Region to Connect with like Oregon I created in this case.
+# Similarly Create VPC,IGW, ROUTE Table, Subnet for second Region to connect with like Oregon I chose to created in this case.
 
-# Now Creating TGW, TGW Attachment for VPC, TGW Attachment for Peering Connection in North Verginia.
+# Now Creating TGW, TGW Attachment for VPC type, TGW Attachment for Peering Connection type and Transit-GW RouteTable, in North Verginia.
 
 ![image](https://github.com/ritesh-sambhe/MyHandsOnProjects/assets/144586067/581476cd-0479-4178-b83e-dc1617f498bb)
 
